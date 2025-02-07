@@ -1,0 +1,13 @@
+1 - A directory was made 'ws2' in the cs131 repo using the command 'mkdir ws2' after the command 'cd cs131'
+
+2 - The home directory path is '/home/ivana_aguilar' and the command used is 'cd' before the file name
+
+3 - UID is '1001 (ivana_aguilar)'groups is '1002(ivana_aguilar),4(adm),20(dialout),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),118(netdev),119(lxd),1000(ubuntu),1001(google-sudoers)'and command used is 'id'
+
+4 - The file '/proc/meminfo' contains information about memory on the server and the file '/proc/cpuinfo' contains information about CPU on the server
+
+5 - Using the command 'head /proc/meminfo' the total memory on the server is 976904 kB
+
+6 - There is 1 processor on the server and the architecture name is 'Intel(R) Xeon(R)' and the processor speed is 2.20 Ghz
+
+7 - The operating system version is '20.046 LTS (Focal Fossa)' and the file is found in '/etc/os-release'

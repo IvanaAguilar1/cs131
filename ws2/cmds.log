@@ -1,0 +1,24 @@
+  133  cd cs131
+  134  ls
+  135  mkdir ws2
+  136  ls
+  137  cd ws2
+  138  ls
+  139  cd /home/ivana_aguilar/cs131
+  140  ls
+  141  cd /home/ivana_aguilar
+  143  cd cs131
+  144  cd ws2
+  147  id
+  151  ls /proc
+  162  head /proc/meminfo
+  164  head /proc/cpuinfo
+  165  cat /proc/cpuinfo
+  167  cat /proc/cpuinfo | head
+  168  cat /proc/cpuinfo | tail
+  169  cat /etc/
+  171  grep --help
+  178  cat /etc/os-release
+  181  git clone https://github.com/IvanaAguilar1/cs131.git
+  182  > ~/cs131/ws2/ws2.txt
+  184  history > ~/cs131/ws2/cmds.log
