@@ -1,0 +1,23 @@
+"grep" searches for the location of "2019-01-02" and "2019-01-10".
+"|" is used to pass the output of the first command as the input to another.
+"cut -d" is used to take out sections from each line based on "-d".
+"','" separates the data.
+"-f2" is to take out the second line.
+">" redirects to the file.
+"sort" arranges the ids in order.
+"uniq -c" counts the occurences of each id.
+"sort -nr" sorts the counts from smallest.
+"head" is used to display the first couple of lines of a file.
+
+The most popular pickup locations for January 2nd, 2019 are:
+
+18 "2019-01-02 15:15:42.000000"
+13 "2019-01-02 18:17:56.000000"
+13 "2019-01-02 17:54:25.000000"
+
+The most popular pickup locations for January 10th, 2019 are:
+
+44 "2019-01-10 15:15:08.000000"
+24 "2019-01-10 15:15:09.000000"
+16 "2019-01-10 18:36:53.000000"
+
