@@ -1,0 +1,546 @@
+    1  ssh-keygen
+    2  ls
+    3  mkdir cs131
+    4  ls 
+    5  cd cs131
+    6  echo "this is my readme" > README.md
+    7  ls
+    8  git init 
+    9  git add README.md
+   10  git status
+   11  git commit -m "first commit"
+   12  git config --global user.email "ivana.aguilar@sjsu.edu"
+   13  git config --global user.name "Ivana Aguilar"
+   14  git commit -m "first commit"
+   15  git log
+   16  git branch -M main
+   17  git remote add origin https://github.com/IvanaAguilar1/cs131.git
+   18  git push -u origin main
+   19  ls
+   20  cd  cs131
+   21  ls
+   22  pwd
+   23  ls
+   24  mkdir sample1
+   25  ls
+   26  cd sample1/
+   27  mkdir sample2
+   28  touch a.txt
+   29  cd sample2/
+   30  touch a.txt
+   31  ls
+   32  pwd
+   33  cd ..
+   34  cd sample1/
+   35  cd /home/ivana_aguilar/cs131
+   36  touch ./b.txt
+   37  ls
+   38  cd ./sample1/sample2/
+   39  cd~
+   40  ls
+   41  cd cs131/
+   42  ls
+   43  rm b.txt
+   44  cd /home/ivana_aguilar/cs131
+   45  ls
+   46  rm b.txt
+   47  ls
+   48  file sample1/
+   49  ls
+   50  cat README.md
+   51  less README.md
+   52  cat README.md
+   53  ls
+   54  man ls
+   55  ls -a
+   56  ls
+   57  ls -a
+   58  ls -d
+   59  ls -l
+   60  ls -la
+   61  ls -las
+   62  clear
+   63  -arhl
+   64  man ls
+   65  ls -arhl
+   66  man ls
+   67  ls -atrhl
+   68  ls
+   69  ls -l
+   70  ls -lt
+   71  -ltr
+   72  ls -ltr
+   73  ls -ltra
+   74  ls -ltrah
+   75  ls -ltra -h
+   76  ls -t
+   77  ls -tl
+   78  ls -tla
+   79  ls -tlar
+   80  cd/
+   81  cd /
+   82  ls
+   83  cd bin
+   84  ls
+   85  cd ..
+   86  ls
+   87  cd stc/
+   88  cd etc/
+   89  ls
+   90  cat passwd
+   91  cd ..
+   92  ls
+   93  clear
+   94  cd
+   95  ls
+   96  cd cs131/
+   97  ls
+   98  cd sample1/
+   99  ls
+  100  cp a.txt b.txt
+  101  ls
+  102  cp a.txt ./sample2/b.txt
+  103  cd sample2/
+  104  ls
+  105  rm b.txt
+  106  ls
+  107  cd ..
+  108  ls
+  109  rm -r sample2/
+  110  ls
+  111  man rm
+  112  ls
+  113  touch aa.txt
+  114  aa123.txt
+  115  aa123 .txt
+  116  touch aa123.txt
+  117  ls
+  118  ls ?.txt
+  119  ls ??.txt
+  120  ls *.txt
+  121  ls
+  122  ls [!a]*.txt
+  123  ls [!b]*.txt
+  124  ls *
+  125  ls g*
+  126  touch g.txt
+  127  ls g*
+  128  touch g
+  129  ls g*
+  130  ls g?
+  131  vim
+  132  history
+  133  cd cs131
+  134  ls
+  135  mkdir ws2
+  136  ls
+  137  cd ws2
+  138  ls
+  139  cd /home/ivana_aguilar/cs131
+  140  ls
+  141  cd /home/ivana_aguilar
+  142  cd ws2
+  143  cd cs131
+  144  cd ws2
+  145  pwd
+  146  echo /home/ivana_aguilar
+  147  id
+  148  ls /proc
+  149  ls mem
+  150  ls grep mem
+  151  ls /proc
+  152  ls /proc | grep mem
+  153  cd /proc/meminfo
+  154  cd /proc
+  155  cd cs131
+  156  cd /home/ivana_aguilar/cs131
+  157  ls
+  158  cd ws2
+  159  head /proc
+  160  head ls /proc
+  161  ls /proc
+  162  head /proc/meminfo
+  163  ls /proc/cpuinfo
+  164  head /proc/cpuinfo
+  165  cat /proc/cpuinfo
+  166  echo 0 processors
+  167  cat /proc/cpuinfo | head
+  168  cat /proc/cpuinfo | tail
+  169  cat /etc/
+  170  cat /etc/ | grep
+  171  grep --help
+  172  cd /home/ivana_aguilar
+  173  cat /etc/
+  174  cat /etc/os-release
+  175  cd home/ivana_aguilar/cs131/ws2
+  176  cd cs131
+  177  cd ws2
+  178  cat /etc/os-release
+  179  git clone <https://github.com/IvanaAguilar1/cs131.git>
+  180  git clone < https://github.com/IvanaAguilar1/cs131.git >
+  181  git clone https://github.com/IvanaAguilar1/cs131.git
+  182  > ~/cs131/ws2/ws2.txt
+  183  ls
+  184  history > ~/cs131/ws2/cmds.log
+  185  ls
+  186  history > cmds.log
+  187  ls
+  188  vim ~/cs131/ws2/ws2.txt
+  189  vim ~/cs131/ws2/cmds.log
+  190  cd ~/cs131
+  191  git add ws2/
+  192  git commit -m "Assignment"
+  193  git push origin main
+  194  git clone https://github.com/IvanaAguilar1/cs131.git
+  195  vim README.md
+  196  git status
+  197  cd css131
+  198  cd cs131
+  199  vim README.md
+  200  git status
+  201  git add README.md
+  202  git commit -m "this is my commit on 2/10"
+  203  git hist
+  204  git reset --hard 
+  205  git hist
+  206  git history
+  207  git commit -m "I added another line"
+  208  git hist
+  209  git hist --all
+  210  man git log
+  211  git checkout main
+  212  git hist
+  213  git checkout -b 0210class
+  214  git status
+  215  l
+  216  ls
+  217  cat README.md
+  218  vim README.md
+  219  cat README.md
+  220  git add README.md
+  221  git commit -m "edit README"
+  222  git hist
+  223  git history
+  224  git --help
+  225  git bisect
+  226  git log
+  227  git checkout main
+  228  git status
+  229  cat README.md
+  230  git checkout 0210class
+  231  cat README.md
+  232  git status
+  233  git merge main
+  234  git status
+  235  git log --all
+  236  git chechout main
+  237  git checkout main
+  238  git log --all
+  239  vim README.md
+  240  git add README.md
+  241  git commit -m "edit README(main)"
+  242  git llog --all
+  243  git log --all
+  244  cat ~/.gitconfig
+  245  git checkout 0210class
+  246  git merge main
+  247  git hist --all
+  248  git log --all
+  249  git merge main
+  250  git checkout 0210class
+  251  git merge main
+  252  cat README.md
+  253  fit status
+  254  git status
+  255  vim README.md 
+  256  git add README.md
+  257  git commit -m "edit README"
+  258  git merge main
+  259  git checkout main
+  260  vim README.md
+  261  cat README.md
+  262  git add README.md
+  263  git commit -m "edit remove I added a line to README"
+  264  git checkout 0210class
+  265  git merge main
+  266  vim README.md
+  267  git add README.md
+  268  git commit -m "fix the conflict
+  269  git checkout 0210class
+  270  clear
+  271  git log
+  272  git commit -m "fix the conflict"
+  273  git log
+  274  git checkout main
+  275  git status
+  276  cd sample1/
+  277  echo "show this text"
+  278  echo show this text
+  279  echo *
+  280  echo "2+ 2 is $((2 + 2))"
+  281  echo CS 131{1,2,3}
+  282  echo CS 13{A,B,C}
+  283  echo CS 13{1,2,3}
+  284  echo 4USER
+  285  echo $USER
+  286  printenv
+  287  echo $SHELL
+  288  pwd
+  289  echo "$(pwd) has the following files: $(ls)"
+  290  pwd
+  291  ls
+  292  echo "(pwd) has the following files: $(ls)
+  293  echo "(pwd) has the following files: $(ls)
+  294  echo '(pwd) has the following files: $(ls)'
+  295  echo "(pwd) has the following files: \$(ls)
+  296  echo "(pwd) has the following files: \$(ls)"
+  297  gdown
+  298  sudo apt install python3-pip
+  299  pip install gdown
+  300  gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+  301  gdown
+  302  pip
+  303  apt install python3-pip
+  304  sudo apt install python3-pip
+  305  pip install gdown
+  306  gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+  307  /home/<user-name>/.local/bin/gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+  308  clear
+  309  apt install pyth
+  310  apt install python3-pip
+  311  sudo apt install python3-pip
+  312  sudo apt update
+  313  sudo apt install python3-pip
+  314  apt install python3-pip
+  315  sudo apt install python3-pip
+  316  pip install gdown
+  317  gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+  318  pip show gdown
+  319  pip install gdown
+  320  which gdown
+  321  /home/<your-username>/.local/bin/gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+  322  /home/<ivana_aguilar>/.local/bin/gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+  323  history
+  324  gdown
+  325  sudo apt install python3-pip
+  326  pip install gdown
+  327  gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+  328  head taxi_data.csv
+  329  cut -d
+  330  sudo apt install python3-pip
+  331  sudo apt install python3-pip
+  332  pip install gdown
+  333  gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+  334  ++
+  335  +
+  336  head taxi_data.csv
+  337  pwd
+  338  ls
+  339  find / -name "taxi_data.csv" 2>/dev/null
+  340  gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+  341  ls
+  342  head 2019-01-h1.csv
+  343  history
+  344  ls
+  345  head 2019-01-h1.csv
+  346  history
+  347  cut -d',' -f2 jan10_data.csv > pickup_locations.txt
+  348  pwd
+  349  ls
+  350  cut -d',' -f2 2019-01-h1.csv > pickup_locations.txt
+  351  sort pickup_locations.txt > sorted_locations.txt
+  352  uniq -c sorted_locations.txt > location_counts.txt
+  353  sort -nr location_counts.txt > sorted_location_counts.txt
+  354  mv sorted_location_counts.txt jan10_popular_locations.txt
+  355  cut -d',' -f2 2019-01-h1.csv > pickup_locations.txt
+  356  head pickup_locations.txt
+  357  history
+  358  grep '2019-01-02' taxi_dataset.csv > jan_2_data.csv
+  359  ls
+  360  gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+  361  mv /path/to/downloaded/taxi_dataset.csv .
+  362  head - n 20 dataset.csv
+  363  kkkk
+  364  ls
+  365  head -n 20 dataset.csv
+  366  ls
+  367  head -n 20 2019-01-h1.csv
+  368  head -n 20 jan_2_data.csv
+  369  grep "^2019-01-02" 2019-01-h1.csv > jan2_2019.txt
+  370  head -n 10 2019-01-h1.csv
+  371  grep "2019-01-02" 2019-01-h1.csv | cut -d',' -f2 > jan02_pickup_locations.txt
+  372  grep "2019-01-10" 2019-01-h1.csv | cut -d',' -f2 > jan10_pickup_locations.txt
+  373  sort jan02_pickup_locations.txt > sorted_jan02_locations.txt
+  374  uniq -c sorted_jan02_locations.txt > jan02_location_counts.txt
+  375  sort -nr jan02_location_counts.txt > sorted_jan02_location_counts.txt
+  376  head sorted_jan02_location_counts.txt
+  377  sort jan10_pickup_locations.txt > sorted_jan10_locations.txt
+  378  uniq -c sorted_jan10_locations.txt > jan10_location_counts.txt
+  379  sort -nr jan10_location_counts.txt > sorted_jan10_location_counts.txt
+  380  head sorted_jan10_location_counts.txt
+  381  head -n 3 sorted_jan02_location_counts.txt
+  382  head -n 3 sorted_jan10_location_counts.txt
+  383  > ws3.txt
+  384  vim ws3.txt
+  385  cmds.log
+  386  cd cmds.log
+  387  vim ws3.txt
+  388  history > cmds.log
+  389  vim cmds.log
+  390  mv ws3.txt cs131/ws3/
+  391  cd cs131/
+  392  mkdir /ws3
+  393  mkdir /cs131/ws3
+  394  mkdir ws3
+  395  ls
+  396  cd ws3
+  397  cd ~/
+  398  mv ws3.txt cs131/ws3/
+  399  mv cmds.log cs131/ws3/
+  400  cd cs131
+  401  cd ws3
+  402  vim ws3.txt
+  403  history > cmds.log
+  404  vim cmds.log
+  405  cd ~/
+  406  vim cmds.log
+  407  history > cmds.log
+  408  vim cmds.log
+  409  cd cs131
+  410  cd ws3
+  411  history > cmds.log
+  412  cmds.log
+  413  vim cmds.log
+  414  git add cs131/ws3/ws3.txt
+  415  git add cs131/ws/cmds.log
+  416  git commit -m
+  417  git push
+  418  vim ~/cs131/ws3/ws3.txt
+  419  vim ~/cs131/ws3/cmds.log
+  420  cd ~/cs131
+  421  git add ws3/
+  422  git commit -m "Assignment2"
+  423  git push origin main
+  424  git clone https://github.com/IvanaAguilar1/cs131.git
+  425  cd cs131
+  426  cd ws2
+  427  ls
+  428  cd ~/
+  429  cd cs131
+  430  cd
+  431  pwd
+  432  cat /etc/password
+  433  cat /etc/passwd
+  434  id
+  435  ls /etc
+  436  ls /etc | grep mem
+  437  ls /proc
+  438  ls /proc | grep mem
+  439  head meminfo
+  440  head /proc/meminfo
+  441  head /proc/cpuinfo
+  442  cat /proc/cpuinfo
+  443  ls
+  444  cat /etc/os-release
+  445  cat /etc/shadow
+  446  cd cs131
+  447  ls
+  448  cs sample1
+  449  cs sample1/
+  450  cd sample1
+  451  ls
+  452  touch sample.txt
+  453  ls -1
+  454  ls -l
+  455  id
+  456  chmod 600 sample.txt
+  457  ls -l | grep sample
+  458  chmod 464 sample.txt
+  459  ls -l | grep sample
+  460  passwd
+  461  su
+  462  sudo passwd
+  463  su
+  464  sudo /etc/shadow
+  465  id | grep sudo
+  466  id | grep admin
+  467  su
+  468  ls
+  469  cd cs131
+  470  ls
+  471  mkdir a1
+  472  ls
+  473  cd a1
+  474  history
+  475  cd ~/
+  476  history
+  477  cd cs131
+  478  cs a1
+  479  cd a1
+  480  nano ~/.bashrc
+  481  l
+  482  w
+  483  ls -ltr
+  484  mkdir FARE
+  485  ls
+  486  echo "fare_amount" > a1/FARE/48.0-161.0.txt
+  487  cd FARE
+  488  echo "fare_amount" > a1/FARE/48.0-161.0.txt
+  489  touch FARE/48.0-161.0
+  490  cat > FARE/48.0-161.0
+  491  cat > 48.0-161.0
+  492  cat > 48.0-161.0.txt
+  493  cat > 25.0-200.0.txt
+  494  echo "fare_amount" > FARE/48.0-161.0.txt
+  495  echo "fare_amount" > 48.0-161.0.txt
+  496  cat 48.0-161.0.txt
+  497  touch FARE/48.0-16
+  498  l
+  499  w
+  500  cd cs131
+  501  cd a1
+  502  nano ~/.bashrc
+  503  l
+  504  w
+  505  ls
+  506  cd FARE
+  507  ls
+  508  grep ",48.0,161.0," taxi_data.csv | cut -d, -f19 > a1/FARE/48.0-161.0.txt
+  509  grep "48.0" taxi_data.txt | grep "161.0" | cut -d',' -f10 > a1/FARE/48.0-161.0.txt
+  510  cd a1
+  511  cd ~
+  512  cd cs131
+  513  cd a1
+  514  grep "48.0" taxi_data.txt | grep "161.0" | cut -d',' -f10 > a1/FARE/48.0-161.0.txt
+  515  cat a1/FARE/48.0-161.0.txt
+  516  cat a1/FARE/80.0-150.0.txt
+  517  cd FARE
+  518  cat a1/FARE/48.0-161.0.txt
+  519  cat a1/FARE/80.0-150.0.txt
+  520  cat a1/FARE/48.0-161.0.txt
+  521  $ echo "fare_amount:48.0-161.0" > 48.0-161.0.txt
+  522  ls
+  523  echo "fare_amount:48.0-161.0" > 48.0-161.0.txt
+  524  ls
+  525  echo "fare_amount:25.0-200.0" > 25.0-200.0.txt
+  526  ls
+  527  grep ',48.0,161.0,' taxi_data.csv | cut -d',' -f10 > FARE/48.0-161.0.txt
+  528  grep ',48.0,161.0,' taxi_data.csv | cut -d',' -f10 > 48.0-161.0.txt
+  529  cut -d',' -f10 > 48.
+  530  cut -d',' -f10 > 48.0-161.0.txt
+  531  grep '48.0' taxi_data.csv | grep '161.0' | cut -d',' -f18 > a1/FARE/48.0-161.0.txt
+  532  grep '50.0' taxi_data.csv | grep '160.0' | cut -d',' -f18 > a1/FARE/50.0-160.0.txt
+  533  grep '48.0' /home/user/dataset/taxi_data.csv | grep '161.0' | cut -d',' -f18 > a1/FARE/48.0-161.0.txt
+  534  sum_48_161=$(paste -sd+ a1/FARE/48.0-161.0.txt | bc)
+  535  count_48_161=$(wc -l < a1/FARE/48.0-161.0.txt)
+  536  avg_48_161=$(echo "scale=2; $sum_48_161 / $count_48_161" | bc)
+  537  echo "Mean fare for 48.0-161.0: $avg_48_161" > a1.txt
+  538  sum_48_161=$(paste -sd+ a1/FARE/48.0-161.0.txt | bc)
+  539  sum_48_161=$(paste -sd+ 48.0-161.0.txt | bc)
+  540  sum_48_161=$(paste -sd+ 25.0-200.0.txt | bc)
+  541  sum_48_200=$(paste -sd+ 25.0-200.0.txt | bc)
+  542  sum_25_200=$(paste -sd+ 25.0-200.0.txt | bc)
+  543  count_48_161=$(wc -l < a1/FARE/48.0-161.0.txt)
+  544  history > ~/cs131/a1/cmds.log
+  545  ls
+  546  history > ~/cs131/a1/cmds.log

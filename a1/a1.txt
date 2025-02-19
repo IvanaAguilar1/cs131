@@ -1,0 +1,20 @@
+Task 1:
+
+cd cs131 - opened cs131 directory
+mkdir a1 - made a1 directory
+ls - checked to see if the file was there
+cd a1 - went into the directory
+nano ~/.bashrc
+l
+w
+
+Task 2:
+
+mkdir FARE
+ls
+cd FARE
+echo “fare_amount: 48.0-161.0” > 48.0-161.0.txt
+echo “fare_amount: 25.0-200.0” > 25.0-200.0.txt
+sum_48_161=$(paste -sd+ 48.0-161.0.txt | bc)
+sum_25_200=$(paste -sd+ 25.0-200.0.txt | bc)
+
