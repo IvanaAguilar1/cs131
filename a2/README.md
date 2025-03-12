@@ -13,7 +13,7 @@ This shell script is useful for users who want to monitor their space usage of d
 
 ## <b>3. How you can use this command</b>
 
-You can use this shell script by simply running the script with the command "./a2.sh". Then follow the instructions that follow to check the size of any directory on your  system.
+You can use this shell script by simply running the script with the command "./a2.sh". Then execute the instructions that follow to check the size of any directory on your  system.
 
 ## <b>4. Example Execution Results</b>
 
