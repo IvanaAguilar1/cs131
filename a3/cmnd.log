@@ -1,0 +1,10 @@
+All commands releveant to the tasks
+
+mkdir a3
+ls
+vim a3.txt
+vim cmnd.log
+vim grades.csv
+vim grader.awk
+chmod +x grader.awk
+awk -f grader.awk grades.csv

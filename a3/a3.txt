@@ -1,0 +1,61 @@
+1.Sum of grades
+StudentID,Name,CS146,CS131,CS100W,Total
+101,Alice,85,90,78,253
+102,Bob,76,82,88,246
+103,Charlie,90,85,95,270
+104,David,65,70,60,195
+105,Eve,88,92,85,265
+
+2. Average grades and Pass or Fail
+StudentID,Name,CS146,CS131,CS100W,Average,Pass/Fail
+101,Alice,85,90,78,84.3333,Pass
+102,Bob,76,82,88,82,Pass
+103,Charlie,90,85,95,90,Pass
+104,David,65,70,60,65,Fail
+105,Eve,88,92,85,88.3333,Pass
+
+3. Highest and Lowest scoring students
+StudentID,Name,Total
+103,Charlie,270
+104,David,195
+
+4. Student Summary
+
+Student Name: 101,Alice,85,90,78,
+Total Score: 253
+Average Score: 84.3333
+Status(Pass/Fail): Pass
+
+Student Name: 102,Bob,76,82,88,
+Total Score: 246
+Average Score: 82
+Status(Pass/Fail): Pass
+
+Student Name: 103,Charlie,90,85,95,
+Total Score: 270
+Average Score: 90
+Status(Pass/Fail): Pass
+
+Student Name: 104,David,65,70,60,
+Total Score: 195
+Average Score: 65
+Status(Pass/Fail): Fail
+
+Student Name: 105,Eve,88,92,85,
+Total Score: 265
+Average Score: 88.3333
+Status(Pass/Fail): Pass
+
+5. Top and Lowest scoring students
+
+Highest Scoring Student
+Student Name: Charlie
+Total Score: 270
+Average Score: 90
+Status(Pass/Fail): Pass
+
+Lowest Scoring Student
+Student Name: David
+Total Score: 195
+Average Score: 65
+Status(Pass/Fail): Fail
