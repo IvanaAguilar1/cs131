@@ -1,0 +1,15 @@
+Task 1 sed:
+
+1) sed -n '/,2.0,/p' taxi_dataset.csv > ~/cs131/ws56/vendor2.csv
+
+2) sed 's/[":-]//g' taxi_dataset.csv > ~/cs131/ws56/no-separators.csv
+
+3) sed 's/\([0-9]*\)\.[0-9]*\>/\1/g' ~/cs131/ws56/no-separators.csv > ~/cs131/ws56/no-fractions.csv
+
+Task 2 awk:
+
+1) awk -F, '$14 >= 10 {print $14}' taxi_dataset.csv > ~/cs131/ws56/AWK.txt
+
+   sort AWK.txt | uniq -c | awk '{print $2, $1}' > ~/cs131/ws56/AWK.txt
+
+2) awk '{print $0}' AWK.txt | sort -k2,2nr | head -n 20
